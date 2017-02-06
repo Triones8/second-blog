@@ -1,0 +1,198 @@
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+body{
+	color: #fad87e;
+}
+nav{
+	margin: 0;
+	display: inline-block;
+	background-color: #015965;
+	height: 50px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0px 20px;
+	float: right;
+}
+
+nav ul li, .logo{
+	display: inline-block;
+	line-height: 50px;
+	float: left;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+
+.welcome{
+	display: inline-block;
+	line-height: 50px;
+	float: left;
+	margin-right: 20px;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.sub-heading{
+	line-height: 30px;
+	margin: 30px 0;
+	font-size: 18px;
+	color: #dcd5ba;
+}
+
+.logo{
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 20px;
+
+}
+
+.logo a{
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.tips{
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-family: "YouYuan";
+	text-align: center;
+	padding: 6px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;	
+	margin: 60px 100px;
+}
+
+.login{
+	list-style:none;
+}
+
+.login-back{
+	display: inline-block;
+	background: #444 url(pic/pic04.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.login-box{
+	display: inline-block;
+	border-radius: 8px;
+	margin: 60px 40px;
+	width: 40%;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.login-inner{
+	padding: 15px 40px;
+}
+
+.tit{
+	color: #fad87e;
+	line-height: 20px;
+	text-align: left;
+	padding-left: 46px;
+}
+
+
+.login-input{
+	font-family: "Microsoft YaHei";
+	font-weight: 700;
+	border: #999 solid 1px;
+	text-indent: 5px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 80%;
+	border-radius: 8px;
+	color: #015965;
+}
+
+/*
+.user-icon{
+	background: #eee url(../pic/pic03.jpg) right center no-repeat;
+}
+
+.pass-icon{
+	background: #eee url(../pic/pic04.jpg) right center no-repeat;
+}
+*/
+
+#a1{
+	display: inline-block;
+}
+
+#auto-login{
+	padding-top: 8px;
+	color: inherit;
+}
+
+.checked{
+	position: relative;
+	border-radius: 4px;
+	padding-top: 3px;
+	padding-right: 3px;
+	margin-right: 8px;
+	border-color: #fad87e;
+}
+
+.login-btn{
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: "YouYuan";
+	color: #015965;
+	font-weight: 700;
+	text-align: center;
+	padding: 8px 60px;
+	margin: 20px 10px;
+	border-radius: 8px;
+}
+
+.login-partners{
+	position: relative;
+	padding-top: 35px;
+	color: #fff;
+	padding-left: 46px;
+	text-align: left;
+}
+
+.login-list{
+	margin-left: 5px;
+}
+
+.login-list li{
+	float: left;
+	line-height: 20px;
+	list-style: none;
+	color: #aaa;
+	padding-bottom: 50px;
+}
+
+
+.login-list li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #fad87e;
+	margin-left: 2px;
+	margin-right: 2px;
+}
